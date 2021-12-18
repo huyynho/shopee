@@ -46,7 +46,7 @@
                     </ul>
     
                     <ul class="header__navbar-list">
-                        <li class="header__navbar-item">
+                        <li class="header__navbar-item header__navbar-item--has-notify">
                             <a href="" class="header__navbar-item-link">
                                 <i class="header__navbar-icon fas fa-bell"></i>
                                 Thông Báo
@@ -58,30 +58,33 @@
                                 <ul class="header__notify-list">
                                     <li class="header__notify-item header__notify-item--viewed">
                                         <a href="" class="header__notify-link">
-                                            <img src="./assets/img/header_ohui.jpg" alt="" class="header__notify-img">
+                                            <img src="./assets/img/header_ohui.jpg" alt="OHUI Extreme White Cream" class="header__notify-img">
                                             <div class="header__notify-info">
-                                                <span class="header__notify-name">Mỹ phẩm Ohui chính hãng</span>
-                                                <span class="header__notify-desc">Mô tả</span>
+                                                <span class="header__notify-name">Bộ dưỡng trắng da sáng rạng rỡ OHUI Extreme White Cream Special Set</span>
+                                                <span class="header__notify-desc">Nơi sản xuất: Hàn Quốc
+                                                    Hạn sử dụng: 3 năm kể từ ngày sản xuất (thông tin được in trên bao bì)</span>
+                                            </div>
+                                        </a>
+                                    </li>
+
+                                    <li class="header__notify-item header__notify-item--viewed">
+                                        <a href="" class="header__notify-link">
+                                            <img src="./assets/img/header_SonOHui.jpg" alt="Son OHui" class="header__notify-img">
+                                            <div class="header__notify-info">
+                                                <span class="header__notify-name">Son môi OHUI Rouge Real Lipstick 3.5g</span>
+                                                <span class="header__notify-desc">OHUI Rouge Real có thiết kế mới lạ nắp lò xo 
+                                                    bật ra thể hiện vẻ đẹp thanh thoát, đầy quý phái của thỏi son.</span>
                                             </div>
                                         </a>
                                     </li>
 
                                     <li class="header__notify-item">
                                         <a href="" class="header__notify-link">
-                                            <img src="./assets/img/header_ohui.jpg" alt="" class="header__notify-img">
+                                            <img src="./assets/img/header_OhuiExtremeWhite.jpg" alt="OHUI Extreme White Skin" class="header__notify-img">
                                             <div class="header__notify-info">
-                                                <span class="header__notify-name">Mỹ phẩm Ohui chính hãng</span>
-                                                <span class="header__notify-desc">Mô tả</span>
-                                            </div>
-                                        </a>
-                                    </li>
-
-                                    <li class="header__notify-item">
-                                        <a href="" class="header__notify-link">
-                                            <img src="./assets/img/header_ohui.jpg" alt="" class="header__notify-img">
-                                            <div class="header__notify-info">
-                                                <span class="header__notify-name">Mỹ phẩm Ohui chính hãng</span>
-                                                <span class="header__notify-desc">Mô tả</span>
+                                                <span class="header__notify-name">Nước cân bằng dưỡng trắng OHUI Extreme White Skin Softenerg</span>
+                                                <span class="header__notify-desc">Đặc biết tốt với làn da nhờn, lỗ chân lông to, thường xuyên 
+                                                    căng thẳng và mệt mỏi trong công việc.</span>
                                             </div>
                                         </a>
                                     </li>
@@ -111,6 +114,102 @@
         <footer class="footer">
 
         </footer>
+    </div>
+
+    <!-- Modal Layout -->
+    <div class="modal">
+        <div class="modal__overlay"></div>
+
+        <div class="modal__body">
+            <!-- Register form -->
+            <!-- <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng Ký</h3>
+                        <span class="auth-form__switch-btn">Đăng nhập</span>
+                    </div>
+
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="email" class="auth-form__input" placeholder="Email của bạn">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                        </div>
+                    </div>
+
+                    <div class="auth-form__aside">
+                        <p class="auth-form__policy-text">
+                            Bằng việc đăng kí, bạn đã đồng ý với Shopee về
+                            <a href="" class="auth-form__text-link">Điều khoản dịch vụ</a> & 
+                            <a href="" class="auth-form__text-link">Chính sách bảo mật</a>
+                        </p>
+                    </div>
+
+                    <div class="auth-form__controls">
+                        <button class="btn btn--normal auth-form__controls-back">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG KÝ</button>
+                    </div>
+                </div>
+
+                <div class="auth-form__socials">
+                    <a href="" class="auth-form__socials--fb btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                        <span class="auth-form__socials-title">Kết nối với Facebook</span>
+                    </a>
+                    <a href="" class="auth-form__socials--gg btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socials-icon fab fa-google"></i>
+                        <span class="auth-form__socials-title">Kết nối với Google</span>
+                    </a>
+                </div>
+            </div> -->
+
+            <!-- Login form -->
+            <div class="auth-form">
+                <div class="auth-form__container">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng nhập</h3>
+                        <span class="auth-form__switch-btn">Đăng ký</span>
+                    </div>
+
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="email" class="auth-form__input" placeholder="Email của bạn">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                        </div>
+                    </div>
+
+                    <div class="auth-form__aside">
+                        <div class="auth-form__help">
+                            <a href="" class="auth-form__help-link auth-form__help-forgot">Quên mật khẩu</a>
+                            <span class="auth-form__help-separate"></span>
+                            <a href="" class="auth-form__help-link">Cần trợ giúp?</a>
+                        </div>
+                    </div>
+
+                    <div class="auth-form__controls">
+                        <button class="btn btn--normal auth-form__controls-back">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG NHẬP</button>
+                    </div>
+                </div>
+
+                <div class="auth-form__socials">
+                    <a href="" class="auth-form__socials--fb btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                        <span class="auth-form__socials-title">Kết nối với Facebook</span>
+                    </a>
+                    <a href="" class="auth-form__socials--gg btn btn--size-s btn--with-icon">
+                        <i class="auth-form__socials-icon fab fa-google"></i>
+                        <span class="auth-form__socials-title">Kết nối với Google</span>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
