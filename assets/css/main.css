@@ -79,10 +79,6 @@
     height: 10px;
 }
 
-.header__navbar-user-item{
-
-}
-
 .header__navbar-user-item--separate{
     border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
@@ -1130,10 +1126,6 @@ i.home-product-item__like-icon-fill{
     color: #595959;
     font-size: 1.2rem;
     font-weight: 300;
-}
-
-.home-product-item__brand{
-
 }
 
 .home-product-item__item__origin-name{
